@@ -46,10 +46,11 @@ $(function () {
                 Y = boxHeight / 2 - mouseY;
             }
             $(".transform3D").css({
-                "-webkit-transform": "rotateY(" + X / 190 + "deg) " + "rotateX(" + Y / 80 + "deg)"
+                "-webkit-transform": "rotateY(" + X / 70 + "deg) " + "rotateX(" + Y / 40 + "deg)"
             });
             $(".shadow").css({
-                "transform": "translate3d(" + -X / 9 + "px," + Y / 6 + "px, 0)"
+                "visibility":"visible",
+                "transform": "translate3d(" + -X / 13 + "px," + Y / 10 + "px, 0)"
             });
 
             // console.log(X + "," + Y);
@@ -61,7 +62,8 @@ $(function () {
             "-webkit-transform": "rotateY(0deg) rotateX(0deg)"
         });
         $(".shadow").css({
-            "transform": "translate3d(0,0,0)"
+            "transform": "translate3d(0,0,0)",
+            "visibility":"hidden"
         })
     });
     // $(window).scroll(function () {

@@ -358,7 +358,7 @@ div {
     transform-style: preserve-3d;
     -webkit-transform-origin: 50% 50%;
     -webkit-transform: rotateY(0deg) rotateX(0deg);
-    transition: all .15s;
+    transition: all .2s;
 }
 
 .price {
@@ -389,12 +389,12 @@ div {
     transform-style: preserve-3d;
     margin-top: -62px;
     margin-left: -650px;
-    transition: all .15s;
+    transition: all .2s;
 }
 
-.banner:hover .shadow {
-    visibility: visible;
-}
+/*.banner:hover .shadow {*/
+    /*visibility: visible;*/
+/*}*/
 
 .bg {
     -webkit-transform: translateZ(10px);
